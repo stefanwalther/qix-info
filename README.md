@@ -1,5 +1,7 @@
 # qix-info
 
+[![CircleCI](https://circleci.com/gh/stefanwalther/qix-info.svg?style=svg)](https://circleci.com/gh/stefanwalther/qix-info)
+
 > Library & CLI to get some information from QIX using enigma.js.
 
 ---
