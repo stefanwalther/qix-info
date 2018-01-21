@@ -43,7 +43,7 @@ List all apps:
 $ qix-info --host localhost:9076 list-apps
 ```
 
-![Command: list-apps](docs/media/list-apps.gif | =500x)
+![Command: list-apps](docs/media/list-apps.gif =500x)
 
 ## Roadmap
 
