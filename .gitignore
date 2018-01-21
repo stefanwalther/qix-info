@@ -1,0 +1,22 @@
+# =========================
+# Project specific
+# =========================
+docker-compose.yml
+coverage.lcov
+
+# =========================
+# IDEs
+# =========================
+
+# IntelliJ / Webstorm
+.idea/
+
+# Visual Code
+.vscode/
+
+# =========================
+# node.js
+# =========================
+node_modules/
+coverage/
+.nyc_output/
