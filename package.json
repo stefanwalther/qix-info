@@ -1,6 +1,6 @@
 {
   "name": "qix-info",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library & CLI to get some information from QIX using enigma.js.",
   "keywords": [
     "cli",
