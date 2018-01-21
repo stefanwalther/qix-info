@@ -24,6 +24,12 @@ $ npm install qix-info --save-dev
 $ npm install qix-info -g
 ```
 
+### As a Docker container
+
+```
+$ docker pull stefanwalther/qix-info
+```
+
 ## Usage
 
 ### As a library
@@ -46,6 +52,12 @@ $ qix-info --host localhost:9076 list-apps
 ```
 
 ![Command: list-apps](docs/media/list-apps.gif)
+
+### Docker container
+
+```
+$ docker run --net="host" stefanwalther/qix-info list-apps
+```
 
 ## Roadmap
 

@@ -8,3 +8,11 @@ help:								## Show this help.
 gen-readme:					## Generate README.md (using docker-verb)
 	docker run --rm -v ${PWD}:/opt/verb stefanwalther/verb
 .PHONY: gen-readme
+
+d-build:
+	docker build -t stefanwalther/qix-info .
+.PHONY: d-build
+
+d-run:
+	docker run stefanwalther/qix-info
+.PHONY: d-run

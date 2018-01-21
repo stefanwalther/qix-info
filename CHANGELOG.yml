@@ -1,3 +1,7 @@
+v0.1.2:
+  date: "2018-01-20"
+  changes:
+    - "Add Dockerfile"
 v0.1.1:
   date: "2018-01-20"
   changes:

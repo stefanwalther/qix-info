@@ -19,7 +19,10 @@ module.exports = {
     }
     catch (e) {
       log();
-      log(chalk`{red Could not retrieve apps.} Use option --verbose to see details.`);
+      log(chalk`{red Could not retrieve apps.}`);
+      if (!config.verbose) {
+        log(chalk`{Use option --verbose to see details.`);
+      }
       if (config.verbose) {
         console.error(e);
       }
