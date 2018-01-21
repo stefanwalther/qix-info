@@ -30,7 +30,7 @@ module.exports = {
       return;
     }
     console.log();
-    console.log(`Apps returned from the QIX engine: ${apps.length || 0}`);
+    console.log(chalk`{cyan.bold Apps returned from the QIX engine:} {yellow ${apps.length || 0}}`);
     console.log(chalk`{gray Host: ${qixInfo.config.host}:${qixInfo.config.port}}`);
     console.log();
     apps.forEach(app => {
