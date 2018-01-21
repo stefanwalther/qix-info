@@ -27,10 +27,10 @@
     "url": "git+https://github.com/stefanwalther/qix-info.git"
   },
   "scripts": {
-    "lint": "npm run lint:src && npm run lint:test",
-    "lint:fix": "npm run lint:src:fix && npm run lint:test:fix",
-    "lint:src": "eslint src",
-    "lint:src:fix": "eslint src --fix",
+    "lint": "npm run lint:lib && npm run lint:test",
+    "lint:fix": "npm run lint:lib:fix && npm run lint:test:fix",
+    "lint:lib": "eslint lib",
+    "lint:lib:fix": "eslint lib --fix",
     "lint:test": "eslint test",
     "lint:test:fix": "eslint test --fix",
     "test": "nyc mocha './test/**/*.spec.js' --require './test/mocha.conf.js'",

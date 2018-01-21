@@ -1,4 +1,4 @@
-const QixInfo = require('./../src/index');
+const QixInfo = require('./../lib/index');
 const chalk = require('chalk');
 const log = console.log;
 

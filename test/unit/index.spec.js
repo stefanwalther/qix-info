@@ -1,4 +1,4 @@
-const QixInfo = require('./../../src/');
+const QixInfo = require('./../../lib/');
 
 describe('QixInfo (Unit)', () => {
 

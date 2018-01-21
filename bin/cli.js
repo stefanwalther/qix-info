@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 const fn = require('./cli-funcs');
-const chalk = require('chalk');
 
 const yargs = require('yargs');
 
