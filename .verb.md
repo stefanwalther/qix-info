@@ -59,6 +59,8 @@ $ qix-info --host localhost:9076 list-apps
 $ docker run --net="host" stefanwalther/qix-info list-apps
 ```
 
+_Note: We need to add `--net="host"` to allow the Docker container talking to the host._
+
 ## Roadmap
 
 I might want to add more functionality over time (e.g. such as the `healthcheck` endpoint, listing extensions, etc.), but only as needed.  
