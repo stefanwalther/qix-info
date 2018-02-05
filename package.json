@@ -46,7 +46,7 @@
     "enigma.js": "^2.2.0",
     "extend": "^3.0.1",
     "ws": "^4.0.0",
-    "yargs": "^10.1.1"
+    "yargs": "^11.0.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
