@@ -3,7 +3,7 @@
 # -------------------------------------------------------------------
 # We need full node as we need git to download from some GitHub repos.
 # -------------------------------------------------------------------
-FROM node:8.11.2@sha256:bba8a9c445fefc3e53fb2dfdfa755b0c119ae9f9999637e3b96ea37fae89d5d0 as BASE
+FROM node:8.11.2@sha256:321655aeb195b7946e9a29d28453388751389e8ced66b4dea772ae76a6985309 as BASE
 MAINTAINER Stefan Walther <swr-nixda@gmail.com>
 
 ARG BASE_VERSION="0.1.1"
