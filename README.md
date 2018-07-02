@@ -1,7 +1,6 @@
 # qix-info
 
 [![CircleCI](https://circleci.com/gh/stefanwalther/qix-info.svg?style=svg)](https://circleci.com/gh/stefanwalther/qix-info)
-[![Greenkeeper badge](https://badges.greenkeeper.io/stefanwalther/qix-info.svg)](https://greenkeeper.io/)
 
 > Library & CLI to get some information from QIX using enigma.js.
 
