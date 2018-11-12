@@ -3,7 +3,7 @@
 # -------------------------------------------------------------------
 # We need full node as we need git to download from some GitHub repos.
 # -------------------------------------------------------------------
-FROM node:8.11.3@sha256:04986974434fc565529feaac1d62cce4f9fe99ba4906f076ce498000120a45d4 as BASE
+FROM node:8.12.0@sha256:7b65413af120ec5328077775022c78101f103258a1876ec2f83890bce416e896 as BASE
 MAINTAINER Stefan Walther <swr-nixda@gmail.com>
 
 ARG BASE_VERSION="0.1.1"
@@ -15,7 +15,7 @@ RUN npm install qix-info@$BASE_VERSION -g
 ## -------------------------------------------------------------------
 ##                                RELEASE
 ## -------------------------------------------------------------------
-FROM node:8.11.3-alpine@sha256:13f928a8b00ed6f10c1e3964da555e7324d327e2ec0c2202be8b72206625573c as RELEASE
+FROM node:8.12.0-alpine@sha256:d75742c5fd41261113ed4706f961a21238db84648c825a5126ada373c361f46e as RELEASE
 
 RUN apk update
 RUN apk add bash
