@@ -15,7 +15,7 @@ RUN npm install qix-info@$BASE_VERSION -g
 ## -------------------------------------------------------------------
 ##                                RELEASE
 ## -------------------------------------------------------------------
-FROM node:8.12.0-alpine@sha256:d75742c5fd41261113ed4706f961a21238db84648c825a5126ada373c361f46e as RELEASE
+FROM node:8.12.0-alpine@sha256:81abb8de1e5e8b6e55bca143b3c2ec1e2d167cb27fd2cd3191a0d222f7c5e710 as RELEASE
 
 RUN apk update
 RUN apk add bash
